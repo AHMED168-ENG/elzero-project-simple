@@ -1,0 +1,566 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    text-transform: capitalize;
+}
+* p
+{
+    font-weight:540;
+   text-transform: none;
+
+    
+}
+* button:hover
+{
+    cursor: pointer
+
+}
+body
+{
+    height:5600px
+}
+.content
+{
+    width:70%;
+    margin:auto;
+}
+.head
+{
+    width:100%;
+    height:550px;
+    background-image:url('pexels-photo-1213447.jpeg');
+    background-size:cover;
+    background-position: center
+}
+.head div
+{
+    padding-top: 150px;
+    text-align: center;
+    width: 500px;
+    margin: auto
+}
+.head div h1
+{
+    color:#eee;
+    border-top:3px solid white;
+    border-bottom:3px solid white;
+    padding:10px 0 10px 0;
+    margin-bottom:10px;
+    font-family:initial;
+    font-size:35px
+
+}
+.head div button
+{
+    display: block;
+    background:none;
+    padding:10px 40px 10px 40px;
+    color:white;
+    margin: auto;
+    border:2px solid white;
+    font-weight: bold;
+    font-size:18px
+}
+nav
+{
+    width: 100%;
+    height: 60px;
+    background-color:#252f31;
+}
+nav .logo
+{
+    float: left;
+    line-height: 60px;
+    font-size: 25px;
+    font-weight:548;
+    color: white
+    
+}
+nav ul
+{
+    float:right;
+    list-style: none;
+    
+}
+nav ul li
+{
+    float:left
+}
+nav ul li a
+{
+    text-decoration: none;
+    color:white;
+    padding:0 15px 015px;
+    line-height: 60px;
+    font-size:17px;
+    font-weight: bold
+}
+nav ul li a:hover
+{
+    color:#2ecc71
+}
+.sacand
+{
+    padding:40px 0 50px 0;
+    overflow: hidden;
+}
+.sacand .content > div
+{
+    width:33.3333%;
+    float:left;
+}
+.sacand .content > div h3
+{
+    margin-bottom:20px;
+}
+.sacand .content > div p
+{
+    color:black;
+    opacity:0.8;
+    line-height:160%
+}
+
+.therd .content .steve 
+{
+    float: left;
+    width:38%;
+    
+}
+.therd .content .steve img
+{
+   width:100%;
+    height: 500px;
+}
+
+.therd .content .about
+{
+    width:62%;
+    padding:20px 0 0 30px;
+    float: right
+}
+.therd
+{
+    overflow: hidden;
+    background-color:#efebeb;
+}
+.about
+{
+    overflow: hidden
+}
+.therd .content .about h2
+{
+    margin-bottom: 30px;
+    
+}
+.therd .content .about > p
+{
+    margin-bottom: 30px;
+    line-height:1.5;
+    color:#333
+}
+
+.therd .content .about .info
+{
+    width:50%;
+    float:left;
+    margin-bottom: 20px;
+    padding-right:10px
+    
+}
+
+.therd .content .about .info .icon
+{
+    width:15%;
+    float: left;
+    
+}
+.therd .content .about .info .word
+{
+    width:85%;
+    float: left;
+      
+}
+.therd .content .about .info .icon i
+{
+    width:100%;
+    height: 50px;
+    padding: 15px 10 0px 0;
+    border-radius:10px 0 0 0;
+    color: #2dcc70
+}
+
+.info .word h3
+{
+ margin-bottom: 10px;
+  
+    
+}
+.info .word p
+{
+     line-height:1.4;
+     color:#333  
+}
+.therd1
+{
+    padding: 40px 0 50px 0;
+    overflow: hidden
+}
+
+.therd1 .content .skils
+{
+    width:50%;
+    float:left;
+    padding-right: 20px
+    
+}
+.therd1 .content .progres
+{
+    width:50%;
+    float:left;  
+    padding-left:20px
+
+}
+
+.therd1 .content .skils h2
+{
+    margin-bottom:20px;
+    
+}
+.therd1 .content .skils p
+{
+    margin-bottom:30px;
+    color:#333;
+    line-height: 1.5
+    
+}
+.therd1 .content .skils button
+{
+    background:none;
+    border:2px solid #2dcc70;
+    padding:7px 20px 7px 20px;
+    font-weight: bold;
+    color:#2dcc70
+}
+
+.therd1 .content .progres div
+{
+    width:100%;
+    background-color:#999;
+    height: 20px;
+    margin: 15px 0 15px 0
+   
+    
+}
+
+.therd1 .content .progres div span
+{
+    width:60%;
+    background: #2dcc70;
+    height: 20px;
+    text-align: right;
+    display: block
+
+    
+ 
+}
+
+.forth
+{
+    text-align: center;
+    background-color:#efebeb;
+
+}
+.forth .content h2
+{
+    padding:30px 0 20px 0;
+    font-size:40px;
+    font-weight:540
+}
+
+.forth .content p
+{
+    line-height: 1.4;
+    color:#333;
+    margin-bottom:30px;
+    word-spacing:3px
+    
+}
+.forth .content button
+{
+    background:none;
+    border:2px solid #2dcc70;
+    padding:7px 20px 7px 20px;
+    font-weight: bold;
+    color:#2dcc70;
+    margin-bottom:50px
+}
+.fifth
+{
+    overflow:hidden;
+    padding-top:50px
+}
+.fifth .content .education
+{
+    float:left;
+    width:50%;
+    padding-right: 20px
+}
+.fifth .content .education h2
+{
+    margin-bottom: 20px;
+    font-size:35px;
+    font-weight: 500;
+    
+}
+.fifth .content .education p
+{
+    line-height:1.4;
+    color:#333;
+    margin-bottom:30px
+}
+.fifth .content .graphic
+{
+    float:left;
+    width:50%;
+    padding: 60px 0 0 20px;
+    
+}
+.fifth .content .graphic h2
+{
+    margin-bottom: 10px;
+    font-size:30px;
+    font-weight: 500;
+}
+.fifth .content .graphic p
+{
+    color:#333;
+    margin-bottom:10px
+}
+.fifth .content .graphic p span
+{
+     color:#111;
+    font-weight: bold
+
+}
+.fifth .content .graphic button
+{
+    padding:3px 4px ;
+    color:white;
+    background-color:#0eb353;
+    font-weight: bold;
+    border:none;
+    margin-bottom:25px
+}
+.sex
+{
+    background-color:#efebeb;
+    padding:40px 0 30px 0;
+    margin-bottom:50px
+
+}
+.sex .content .education
+{
+    text-align: center;
+}
+.sex .content .education p
+{
+    line-height:1.4;
+    margin-bottom: 15px;
+    color:#333
+    
+}
+.sex .content .education h2
+{
+    font-weight: 540;
+}
+.sex .content .education span
+{
+    width:15px;
+    height:15px;
+    border:2px solid #0eb353;
+    display:inline-block;
+    margin-top: 15px
+}
+.seven
+{
+    padding: 50px;
+    text-align: center;
+    overflow: hidden
+}
+.seven .content h2
+{
+    font-weight: 520;
+    font-size:30px;
+    margin-bottom:20px
+ 
+}
+.seven .content p
+{
+    line-height:1.4;
+    color:#333;
+    margin-bottom: 50px
+}
+.seven .content img
+{
+    width:31.5%;
+    height:300px;
+    margin:0 1.5% 16px 0;
+    padding:2px;
+    border:1px solid #555;
+    float: left
+}
+.seven .content img:hover{
+    opacity: 0.7
+}
+
+footer 
+{
+    width:100%;
+    height:700px;
+    background-color:#0e0e0e;
+    padding-top: 40px;
+}
+footer .content .left
+{
+    float: left;
+    padding:0 20px 0 0;
+    width:50%
+
+        
+}
+footer .content .left h2
+{
+    color:white;
+    margin-bottom: 30px;
+    
+}
+footer .content .left p
+{
+    color:#999;
+    line-height:1.4;
+    margin-bottom: 10px
+    
+}
+
+footer .content .left >div
+{
+   color:#999;
+}
+footer .content .left >div span
+{
+    color:white
+}
+footer .content .right
+{
+    float: left;
+    padding:0 20px 0 0;
+    width:50%
+
+        
+}
+footer .content .right label
+{
+    color:white;
+    margin-bottom:10px;
+    font-size: 18px;
+    font-weight: 500
+}
+footer .content .right input
+{
+    width: 100%;
+    height: 30px;
+    background-color:dimgrey;
+    border:none;
+    margin-bottom:15px
+}
+footer .content .right textarea
+{
+    width:100%;
+    height: 250px;
+    background-color:dimgrey;
+    margin-bottom: 15px;
+    resize: vertical
+    
+}
+footer .content .right button
+{
+    color:white;
+    padding: 8px 13px;
+    background-color:black;
+    border:none;
+    font-weight: bold
+}
+.footer
+{
+    background: black;
+    width: 100%;
+    height:80px;
+    overflow: hidden
+}
+.footer .content .copy
+{
+    float:left;
+    color:#eee;
+    font-weight: bold;
+    line-height: 80px;
+    
+}
+.footer .content .awaysam
+{
+    float:right;
+    font-weight: bold;
+    line-height: 80px;
+    
+}
+.footer .content .awaysam li 
+{
+    list-style: none;
+    display: inline-block;
+    margin-left:10px;
+    color:#2dcc70;
+
+
+    
+}
+
+.footer .content .awaysam li:hover{
+    color:white
+} 
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
